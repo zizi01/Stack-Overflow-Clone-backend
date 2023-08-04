@@ -5,12 +5,9 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "nodemon index.js",
-    "build": "npm i"
+    "start": "nodemon index.js"
   },
-  "engines": {
-    "node": ">=14 <15"
-  },
+  
   "author": "Kumar Manoj",
   "license": "ISC",
   "dependencies": {
