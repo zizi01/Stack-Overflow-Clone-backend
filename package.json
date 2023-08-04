@@ -7,6 +7,9 @@
   "scripts": {
     "start": "nodemon index.js"
   },
+  "engines": {
+    "node": ">=14 <15"
+  },
   
   "author": "KM ANJU",
   "license": "ISC",
@@ -17,7 +20,7 @@
     "express": "^4.18.2",
     "jsonwebtoken": "^9.0.1",
     "mongodb": "4.0",
-    "mongoose": "14.17.0",
+    "mongoose": "^7.4.1",
     "nodemon": "^3.0.1"
   },
   "devDependencies": {
